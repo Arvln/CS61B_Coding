@@ -1,4 +1,4 @@
-package Course_Overview_01;
+package Lab.Lab1;
 
 /* Names.java */
 

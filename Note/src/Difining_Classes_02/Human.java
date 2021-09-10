@@ -1,6 +1,8 @@
 package Difining_Classes_02;
 
 public class Human {
+
+    // static field will be share by Human class between different objects => class variables
     public static int countOfHuman;
     public String name;
     public int age;
@@ -21,5 +23,10 @@ public class Human {
     public void copy(Human human){
         name = human.name;
         age = human.age;
+    }
+
+    // static method have no variable name "this"
+    public static void getCountOfHuman(){
+        System.out.println("Total Human counts: " + countOfHuman);
     }
 }
